@@ -12,7 +12,7 @@ import { Employee } from "../types/Employee";
 import EmployeeState from "./EmployeeState";
 
 const Paragraph = forwardRef<TextProps, "span">((props, ref) => (
-  <Text fontWeight="bold" ml={4} ref={ref} {...props} />
+  <Text as="span" fontWeight="bold" ml={4} ref={ref} {...props} />
 ));
 
 export default function EmployeeList({ ...rest }) {
