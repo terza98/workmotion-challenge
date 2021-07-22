@@ -1,5 +1,6 @@
 import axios from "axios";
 
+// API_URL should be in ENV (not public) but for easier deploy and test I left in here
 const API_URL = "https://60f94e4bee56ef0017975d22.mockapi.io/";
 
 export const getAllEmployees = () => {
